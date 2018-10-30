@@ -1,0 +1,30 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  min-height: 100vw;
+  background-color: #000;
+  color: turquoise;
+}
+
+a {
+  color: #00B7FF;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 15vw 1fr;
+  grid-gap: 2vw;
+}
+
+label {
+  grid-column: 1 / 2;
+}
+
+input, button {
+  grid-column: 2 / 3;
+}
+
+button {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}

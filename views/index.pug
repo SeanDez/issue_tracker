@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1 Issue Tracker
+  form(method='post', action='/api/issues/')
+    label Issue Title*
+    input(name='issue_title' id='issue_title')
+    label Issue Text*
+    input(name='issue_text')
+    label Created By*
+    input(name='created_by')
+    label Assigned To*
+    input(name='created_by')
+    label Status Text*
+    input(name='status_text')
+    button Submit Issue
