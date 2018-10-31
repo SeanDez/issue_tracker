@@ -24,5 +24,5 @@ block content
         p.small_text Created by: #{record.created_by}   Assigned to: #{record.assigned_to}
         p.small_text Created on: #{record.created_on}   Last updated: #{record.updated_on}
         p.small_text
-          a(href="google.com") close
+          a(href=`/api/issues/change_status/${record._id}`) switch status
           a(href=`/api/issues/delete/${record._id}`) delete

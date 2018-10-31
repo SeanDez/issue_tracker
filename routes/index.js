@@ -34,7 +34,22 @@ router.post('/api/issues/', (req, res, next) => {
             });
         }
     });
+});
 
+
+router.get('/api/issues/change_status/:record_id', (req, res, next) => {
+    // lookup the record
+    Issue.findOne({ _id : req.params.record_id }, (error, document) => {
+      document.open = !document.open;
+      document.save((error, updated_document) => {
+        if (error) {
+            console.log(error);
+        } else {
+            console.log(`changed status of record ${req.params.record_id}`);
+            res.send(updated_document)
+        }
+      })
+    })
 });
 
 

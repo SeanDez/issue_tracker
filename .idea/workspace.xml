@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22ad4cbf-bc40-45ed-86a6-7b8df271a41d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/issues.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/issues.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
     </list>
@@ -101,9 +98,9 @@
         <counts>
           <entry key="css" value="341" />
           <entry key="env" value="6" />
-          <entry key="js" value="1784" />
+          <entry key="js" value="2518" />
           <entry key="json" value="7" />
-          <entry key="pug" value="844" />
+          <entry key="pug" value="910" />
           <entry key="www" value="2" />
         </counts>
       </usages-collector>
@@ -112,8 +109,8 @@
           <entry key=".env file" value="6" />
           <entry key="CSS" value="341" />
           <entry key="JSON" value="7" />
-          <entry key="Jade" value="844" />
-          <entry key="JavaScript" value="1786" />
+          <entry key="Jade" value="910" />
+          <entry key="JavaScript" value="2520" />
         </counts>
       </usages-collector>
     </session>
@@ -129,11 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+            <state relative-caret-position="259">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -156,11 +153,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="493">
+              <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -186,8 +183,8 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/models/issues.js" />
         <option value="$PROJECT_DIR$/public/stylesheets/style.css" />
-        <option value="$PROJECT_DIR$/views/index.pug" />
         <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/index.pug" />
       </list>
     </option>
   </component>
@@ -294,12 +291,12 @@
       <option name="presentableId" value="Default" />
       <updated>1540925819400</updated>
       <workItem from="1540925821018" duration="719000" />
-      <workItem from="1540926567630" duration="20672000" />
+      <workItem from="1540926567630" duration="24479000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21391000" />
+    <option name="totallyTimeSpent" value="25198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,17 +388,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.pug">
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="259">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
+    <entry file="file://$PROJECT_DIR$/views/index.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
+        <state relative-caret-position="493">
+          <caret line="26" column="73" selection-start-line="26" selection-start-column="73" selection-end-line="26" selection-end-column="73" />
         </state>
       </provider>
     </entry>
