@@ -1,8 +1,8 @@
 extends layout
 
 block content
-  h1 Issue Tracker
   form(method='post', action='/api/issues/')
+    h1 Issue Tracker
     label Issue Title*
     input(name='issue_title' id='issue_title')
     label Issue Text*
@@ -10,7 +10,19 @@ block content
     label Created By*
     input(name='created_by')
     label Assigned To*
-    input(name='created_by')
+    input(name='assigned_to')
     label Status Text*
     input(name='status_text')
     button Submit Issue
+
+  div#issue_list
+    each record in database_documents
+      div.issue_box
+        p.small_text ID: #{record._id}
+        h4 Issue: #{record.issue_title}
+        p Description: #{record.issue_text}
+        p.small_text Created by: #{record.created_by}   Assigned to: #{record.assigned_to}
+        p.small_text Created on: #{record.created_on}   Last updated: #{record.updated_on}
+        p.small_text
+          a(href="google.com") close
+          a(href=`/api/issues/delete/${record._id}`) delete
